@@ -293,7 +293,7 @@ Champs :
 - `captured` : date+heure de l'import (pas de la vidéo, qui peut dater de plusieurs années). Format ISO avec espace, cohérent avec [[capture-criteria]] §4.
 - `device` : `youtube-import` pour les fragments du transcript, `youtube-import-commentaire` pour le fragment dédié au commentaire de l'utilisateur. Cette signature permet au triage de reconnaître la voix personnelle de l'utilisateur et d'identifier le fragment souvent directement atomisable.
 - `status: unprocessed`, fixe.
-- `source_youtube` : slug de la Source (sans extension `.md`). Permet à toutes les notes inbox issues de la même vidéo de se reconnaître au triage. Analogue à `source_call` pour les fragments grain.
+- `source_youtube` : slug de la Source (sans extension `.md`). Permet à toutes les notes inbox issues de la même vidéo de se reconnaître au triage. Analogue à `source_call` pour les fragments de transcript de call.
 
 ## 6. Convention de slug
 
