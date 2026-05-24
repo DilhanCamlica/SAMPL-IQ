@@ -1,0 +1,17 @@
+# Obsidian local state (workspace, cache)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+.obsidian/*.bak
+
+# OS
+.DS_Store
+.trash/
+
+# Système
+*.swp
+*.tmp
+
+# Fichiers temporaires
+_meta/_temp/

@@ -1,0 +1,13 @@
+{
+  "search": "(path:1-atoms/ OR path:2-people/ OR path:5-maps/ OR path:8-questions/) -[\"status\":\"answered\"]",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "colorGroups": [
+    { "query": "path:1-atoms/",     "color": { "a": 1, "rgb": 12105912 } },
+    { "query": "path:2-people/",    "color": { "a": 1, "rgb": 4508143  } },
+    { "query": "path:5-maps/",      "color": { "a": 1, "rgb": 902793   } },
+    { "query": "path:8-questions/", "color": { "a": 1, "rgb": 15680580 } }
+  ]
+}
