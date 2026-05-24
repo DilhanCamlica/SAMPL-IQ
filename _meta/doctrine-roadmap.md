@@ -19,7 +19,7 @@ Trois trous structurels ont été identifiés dans la doctrine v1 lors
 de la réflexion initiale, par ordre de priorité d'ajout. Ce fichier
 trace leur statut et leurs triggers d'activation.
 
-## Priority 1 — Questions ouvertes (`8-questions/`) ✅ ACTIVÉ
+## Priority 1 : Questions ouvertes (`8-questions/`) ✅ ACTIVÉ
 
 **Statut** : activé dans la doctrine v1 (post 2026-04-25). Dossier
 `8-questions/` opérationnel, type `question` ajouté avec schema
@@ -39,7 +39,7 @@ Sémantique opposée.
 un futur état (faire, lire, vivre). Une question est statique en
 soi (elle n'appelle pas à une action mais à une réflexion).
 
-## Priority 2 — Créations originales (`8-creations/`) — PENDING
+## Priority 2 : Créations originales (`8-creations/`) (PENDING)
 
 **Statut** : non activé. À activer **quand 2 à 3 vraies créations
 existeront**.
@@ -50,7 +50,7 @@ input externe, Project = scope structurée).
 
 **Volume probable** : faible au début (1 à 3 textes), montée
 possible si l'écriture créative reprend (voir
-[[reprendre-ecriture-creative-si-inspire]] — intention `dormant` —
+[[reprendre-ecriture-creative-si-inspire]], intention `dormant`,
 et la map [[musique]]).
 
 **Schema YAML proposé** :
@@ -75,7 +75,7 @@ last_revised: YYYY-MM-DD
 part (drafts WhatsApp, notes iPhone, textes papier) qu'il faut
 ramener dans le vault.
 
-## Priority 3 — Recipes / méthodes répétables (`8-recipes/` ou `playbooks/`) — PENDING
+## Priority 3 : Recipes / méthodes répétables (`8-recipes/` ou `playbooks/`) (PENDING)
 
 **Statut** : non activé. À activer **après 1ère session triage si
 3+ items du vault ressemblent à des recipes**.
@@ -134,7 +134,7 @@ Quand on ajoutera un de ces types, **mettre à jour systématiquement** :
 - `_meta/grill-criteria.md` si pertinent
 - `_meta/README.md` (table des types)
 - Le dossier dédié (avec `.gitkeep`)
-- `_meta/doctrine-roadmap.md` (ce fichier — marquer activé + date)
+- `_meta/doctrine-roadmap.md` (ce fichier, marquer activé + date)
 
 ## Tableau récapitulatif
 

@@ -16,7 +16,7 @@ Doctrine V1 anonymisée, packagée comme produit SAMPL-IQ.
 
 Source de vérité unique pour le workflow d'import d'un transcript de vidéo YouTube dans le vault. Toute consommation (skill local, Claude Code iPhone, agents cloud, scripts ad hoc) doit pointer vers ce fichier plutôt que dupliquer le workflow.
 
-Voir aussi : [[transcripts-import-criteria]] (workflow analogue pour les calls Grain), [[capture-criteria]] (capture inbox standard), [[triage-criteria]] (classification des inbox), [[toilettage-rules]] (nettoyage texte), [[conventions]] (schemas frontmatter), [[vault-doctrine-v1]] (les 8 types), [[vault-state]] (dashboard maturité, lu en début et mis à jour en fin de chaque import, voir Phase 7).
+Voir aussi : [[transcripts-import-criteria]] (workflow analogue pour les transcripts de call), [[capture-criteria]] (capture inbox standard), [[triage-criteria]] (classification des inbox), [[toilettage-rules]] (nettoyage texte), [[conventions]] (schemas frontmatter), [[vault-doctrine-v1]] (les 8 types), [[vault-state]] (dashboard maturité, lu en début et mis à jour en fin de chaque import, voir Phase 7).
 
 ## 1. Pré-requis
 
@@ -200,7 +200,7 @@ Une fois validé, créer les fichiers (voir §4 frontmatter Source, §5 frontmat
 
 - §1 Compteurs : `3-sources/` +1, `0-inbox/` +N (et +1 si commentaire perso).
 - §8 Volumétrie sources : la nouvelle Source pèse normalement < 30 KB (doctrine "Source allégée"). Signaler si dépassement.
-- Append à `_meta/vault-state-log.md` : `YYYY-MM-DD — youtube-import <chaîne> <titre court> — 1 source + N inbox` (log externalisé depuis vault-state §9 au patch doctrine 2026-05-16, rolling 14j).
+- Append à `_meta/vault-state-log.md` : `YYYY-MM-DD | youtube-import <chaîne> <titre court> | 1 source + N inbox` (log externalisé depuis vault-state §9 au patch doctrine 2026-05-16, rolling 14j).
 - Frontmatter `last_updated` de `_meta/vault-state.md`.
 
 Un seul commit englobant Source + inbox + vault-state update :

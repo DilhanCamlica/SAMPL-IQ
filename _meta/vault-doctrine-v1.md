@@ -241,12 +241,12 @@ Tu m'as soulevé la bonne question. Ma règle, à challenger :
 
 |Origine de la pensée|Vit dans|Si dérivé pro|
 |---|---|---|
-|Lecture, idée, capture brute|Obsidian (Atom)|—|
-|Réflexion philosophique, vision|Obsidian (Atom + Map)|—|
+|Lecture, idée, capture brute|Obsidian (Atom)|n/a|
+|Réflexion philosophique, vision|Obsidian (Atom + Map)|n/a|
 |Insight perso → process Acme|Obsidian capture, **puis** Notion process|Notion = transformation, pas copie|
-|Décision personnelle|Obsidian (Log)|—|
-|Décision Acme|Notion direct|—|
-|People perso (Robin, Sam, Nina)|Obsidian|—|
+|Décision personnelle|Obsidian (Log)|n/a|
+|Décision Acme|Notion direct|n/a|
+|People perso (Robin, Sam, Nina)|Obsidian|n/a|
 |People client/équipe Acme|Notion CRM/équipe|Pas de doublon|
 |People à cheval (Victor)|Obsidian côté humain, Notion côté COO|Distinction claire|
 

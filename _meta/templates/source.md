@@ -12,7 +12,7 @@ external_link:
 <!-- medium: book | article | podcast | video | conversation -->
 <!-- status: to-read | reading | read | abandoned -->
 <!-- rating: 1-5 (laisser vide si non noté) -->
-<!-- external_link: URL du média original (Grain, YouTube, article web, Audible, etc.) -->
+<!-- external_link: URL du média original (outil de transcript, YouTube, article web, Audible, etc.) -->
 
 # Titre de la source
 

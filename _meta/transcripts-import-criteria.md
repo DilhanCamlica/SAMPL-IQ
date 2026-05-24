@@ -99,7 +99,7 @@ Tu présentes à l'utilisateur (avant toute écriture) :
 
 ```
 ═══════════════════════════════════════════════════════════
-📞 IMPORT GRAIN : <date> <durée> avec <participants>
+📞 IMPORT TRANSCRIPT : <date> <durée> avec <participants>
 ═══════════════════════════════════════════════════════════
 
 NOTE SOURCE PROPOSÉE (créée directement dans 3-sources/)
@@ -143,7 +143,7 @@ Avant le commit, mettre à jour `_meta/vault-state.md` :
 - §1 Compteurs : `3-sources/` +1, `0-inbox/` +N.
 - §8 Volumétrie sources : si la nouvelle Source pèse plus que la moyenne
   (post doctrine "Source allégée", attendu <30 KB), signaler.
-- Append à `_meta/vault-state-log.md` : `YYYY-MM-DD — transcripts-import <sujet> — 1 source + N inbox` (log externalisé depuis vault-state §9 au patch doctrine 2026-05-16, rolling 14j).
+- Append à `_meta/vault-state-log.md` : `YYYY-MM-DD | transcripts-import <sujet> | 1 source + N inbox` (log externalisé depuis vault-state §9 au patch doctrine 2026-05-16, rolling 14j).
 - Frontmatter `last_updated` de `_meta/vault-state.md`.
 
 Un seul commit englobant Source + inbox + vault-state update :

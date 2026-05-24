@@ -210,7 +210,7 @@ Une fois validé :
 Avant le commit, mettre à jour `_meta/vault-state.md` :
 
 - §1 Compteurs : `6-logs/` +1, `0-inbox/` -N (notes source absorbées) ou +N (dérivées créées en attente de triage).
-- Append à `_meta/vault-state-log.md` : `YYYY-MM-DD — journal-daily — 1 log + N dérivées` (log externalisé depuis vault-state §9 au patch doctrine 2026-05-16, rolling 14j).
+- Append à `_meta/vault-state-log.md` : `YYYY-MM-DD | journal-daily | 1 log + N dérivées` (log externalisé depuis vault-state §9 au patch doctrine 2026-05-16, rolling 14j).
 - Frontmatter `last_updated`.
 
 Un seul commit englobant le Log + dérivées + suppression(s) + vault-state update :
